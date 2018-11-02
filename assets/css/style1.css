@@ -1,5 +1,7 @@
 body {
     position: relative;
+    width: 1583px;
+    height: 1500px;
     padding: 0;
     margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -50,6 +52,7 @@ h2 {
 .wrapper {
     position: relative;
     width: 960px;
+    height: 1500px;
   padding: 20px;
   margin: 0 auto;
   background: #ffffff;
@@ -99,10 +102,10 @@ footer{
     background-color: #acadad;
     text-align: center;
     font-size: 10px;
-    padding: 15px;
-    width:100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 920px;
 }
-
 hr {
     display: block;
     unicode-bidi: isolate;
@@ -114,4 +117,39 @@ hr {
     border-style: inset;
     border-width: 10px;
     border-color: #4aaaa5;
+    height: 0;
+}
+
+.primeraFoto {
+    width: 286px;
+    margin-right: 0px;
+}
+
+}
+
+.segundaFoto {
+    width: 286px;
+    float: left;
+    
+}
+
+.terceraFoto {
+    
+    float:left;
+    
+    width: 286px;
+    
+}
+
+.cuartaFoto {
+    float: left;
+
+    width: 286px;
+    
+}
+.quintaFoto {
+    width: 286px;
+    float: left;
+
+   
 }
