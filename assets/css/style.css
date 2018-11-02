@@ -1,24 +1,26 @@
 body {
-    float: left;
+    position: relative;
     padding: 0;
     margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
-    line-height: 180%;
-    color: #020202;
-    width: 960px;
-    height: 960px;
+    color: #111111;
     background: #f1eeee;
     border-style: solid;
     border-width: 0;
     border-color: #f1eeee;
 }
 /* namebox */
-header {float: left;
+header {
+    margin-left: 320px;
+    padding-top: 20px;
+    padding-left: 35px;
+    padding-right:  35px;
+    padding-bottom: 14px;
+    float: left;
 background: #4aaaa5;
 color: #ffffff;
 border: #cccccc;
-width:20%;
 }
 /* name */
 h1 {
@@ -33,40 +35,54 @@ h1 {
 }
 /* about me */
 h2 {
-    float: left;
+    padding-right: 900px;
+    color: #4aaaa5;
+    margin-right: 0px;
+    margin-left: 300px;
+    margin-bottom: 0px;
     font-size: 18px;
-    margin-left: 200px;
+    background: #ffffff;
     line-height: 150%;
-text-align: right;
+    text-align: left;
+    width: 100px;
 }      
 
-.container {
+.wrapper {
+    position: relative;
     width: 960px;
-    margin: 0;
-    background: #cccccc;
+  padding: 20px;
+  margin: 0 auto;
+  background: #ffffff;
+}
+
+
+#contactlinks {
+    
+    margin-left: 420px;
+    display:inline-block;
+    position: relative;
+    background-color: #f1eeee;
 
 
 }
 
-
-
-#bio-image{
-    float: left;
+li{
+    font-size: 12px;
+    margin: 5px;
+    text-decoration: none;
+    color: #1c9191;
+    
 }
-/* box of main bio and contact info */
-#main-bio {
-    /* width: 50%; */
-}
-/* about me links */
-#contact-info {
-    float: left;
-    width: 78.1%;
-    background-color: #9c5454;
+
+ul{
+    display:inline-flex;
+    list-style-type: none;
 
 }
 
 /* image */
 #bio-image {
+    float: left;
     width: 250px;
     height: 200px;
     margin-right: 20px;
@@ -75,6 +91,26 @@ text-align: right;
 section {
     padding: 10px;
     margin-bottom: 20px;
-    background: rgb(209, 205, 204);
+    background: #ffffff;
     border-width: 2px;
     border-color: #020202;
+}
+footer{
+    background-color: #acadad;
+    text-align: center;
+    font-size: 10px;
+    padding: 15px;
+}
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 10px;
+    border-color: #4aaaa5;
+}
