@@ -35,16 +35,16 @@ h1 {
 }
 /* about me */
 h2 {
-
-    margin-right: 900px;
-    width: 100px;
+    padding-right: 900px;
     color: #4aaaa5;
+    margin-right: 0px;
+    margin-left: 300px;
     margin-bottom: 0px;
     font-size: 18px;
     background: #ffffff;
     line-height: 150%;
     text-align: left;
-    
+    width: 100px;
 }      
 
 .wrapper {
